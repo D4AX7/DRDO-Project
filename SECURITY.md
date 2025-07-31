@@ -1,32 +1,40 @@
-Security
-Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations, which include Microsoft, Azure, DotNet, AspNet, Xamarin, and our GitHub organizations.
+# Security Policy
 
-If you believe you have found a security vulnerability in any Microsoft-owned repository that meets Microsoft's definition of a security vulnerability, please report it to us as described below.
+## Security at Microsoft
 
-Reporting Security Issues
-Please do not report security vulnerabilities through public GitHub issues.
+Microsoft takes the security of our software products and services seriously. This includes all source code repositories managed through our GitHub organizations, including but not limited to [Microsoft](https://github.com/microsoft), [Azure](https://github.com/azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), and other related organizations.
 
-Instead, please report them to the Microsoft Security Response Center (MSRC) at https://msrc.microsoft.com/create-report.
+## Reporting a Vulnerability
 
-If you prefer to submit without logging in, send email to secure@microsoft.com. If possible, encrypt your message with our PGP key; please download it from the Microsoft Security Response Center PGP Key page.
+**Do not report security vulnerabilities through public GitHub issues.**
 
-You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at microsoft.com/msrc.
+If you believe you have found a security vulnerability in any Microsoft-owned repository that meets [Microsoft’s definition of a security vulnerability](https://aka.ms/securitydef), please report it to us through one of the following ways:
 
-Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+- **Online Form:** Submit your report to the [Microsoft Security Response Center (MSRC)](https://msrc.microsoft.com/create-report).
+- **Email:** If you prefer to submit without logging in, send an email to [secure@microsoft.com](mailto:secure@microsoft.com). If possible, encrypt your message using the [MSRC PGP Key](https://www.microsoft.com/msrc/pgp-key).
 
-Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-Full paths of source file(s) related to the manifestation of the issue
-The location of the affected source code (tag/branch/commit or direct URL)
-Any special configuration required to reproduce the issue
-Step-by-step instructions to reproduce the issue
-Proof-of-concept or exploit code (if possible)
-Impact of the issue, including how an attacker might exploit the issue
-This information will help us triage your report more quickly.
+You should receive a response within 24 hours. If you do not, please follow up via email to ensure your report was received. Additional information is available at [microsoft.com/msrc](https://www.microsoft.com/msrc).
 
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our Microsoft Bug Bounty Program page for more details about our active programs.
+### What to Include in Your Report
 
-Preferred Languages
+To help us triage your report efficiently, please include as much of the following information as possible:
+
+- Type of issue (e.g., buffer overflow, SQL injection, cross-site scripting, etc.)
+- Full path(s) of source file(s) related to the issue
+- Location of the affected source code (tag, branch, commit, or direct URL)
+- Any special configuration required to reproduce the issue
+- Step-by-step instructions to reproduce the issue
+- Proof-of-concept or exploit code (if possible)
+- Impact of the issue, including how an attacker might exploit it
+
+If you are submitting for a bug bounty, more complete reports can contribute to a higher bounty award. See the [Microsoft Bug Bounty Program](https://aka.ms/bugbounty) for more details.
+
+## Preferred Languages
+
 We prefer all communications to be in English.
 
-Policy
-Microsoft follows the principle of Coordinated Vulnerability Disclosure.
+## Policy
+
+Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://www.microsoft.com/msrc/cvd).
+
+Thank you for helping keep Microsoft and our users safe!
